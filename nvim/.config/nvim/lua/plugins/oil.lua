@@ -1,6 +1,5 @@
 return {
 	"stevearc/oil.nvim",
-	enabled = false,
 	---@module 'oil'
 	-- Optional dependencies
 	dependencies = { { "echasnovski/mini.icons", opts = {} } },

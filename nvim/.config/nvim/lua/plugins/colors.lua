@@ -156,9 +156,7 @@ local colorschemes = {
 		lazy = false,
 		priority = 1000,
 		config = function()
-			require("tokyonight").setup({
-				transparent = true,
-			})
+			require("tokyonight").setup({})
 			vim.cmd.colorscheme("tokyonight-night")
 		end,
 	},
@@ -219,6 +217,6 @@ local colorschemes = {
 	},
 }
 
-local selected = colorschemes.nord
+local selected = colorschemes.tokyonight
 
 return selected

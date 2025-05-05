@@ -11,7 +11,6 @@ vim.opt.expandtab = true
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
 vim.opt.incsearch = true
-vim.opt.hlsearch = false
 --
 -- -- [[ Leader Key ]]
 vim.g.mapleader = " "
@@ -23,9 +22,8 @@ vim.g.maplocalleader = " "
 -- -- [[ Appearance ]]
 -- vim.opt.number = true
 -- vim.opt.relativenumber = true
--- vim.opt.wrap = false
--- vim.opt.cursorline = true
--- vim.opt.signcolumn = "yes"
+vim.opt.wrap = false
+vim.opt.cursorline = true
 -- vim.opt.scrolloff = 10
 -- vim.opt.termguicolors = true
 -- vim.opt.showtabline = 0
@@ -38,11 +36,11 @@ vim.g.maplocalleader = " "
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
 -- vim.opt.list = true
--- vim.opt.listchars = { eol = "↲", tab = "» ", trail = "·", nbsp = "␣" }
--- vim.opt.splitbelow = true
--- vim.opt.splitright = true
--- vim.opt.hlsearch = false
--- vim.opt.inccommand = "split"
+vim.opt.listchars = { eol = "↲", tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.hlsearch = false
+vim.opt.inccommand = "split"
 -- vim.opt.undofile = true
 -- vim.opt.showmode = false
 -- vim.g.have_nerd_font = true
@@ -69,7 +67,7 @@ vim.opt.timeoutlen = 300
 -- vim.opt.virtualedit = "block"
 -- vim.opt.mouse = "a"
 -- vim.opt.title = false
--- vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = "unnamedplus"
 -- -- vim.opt.textwidth = 80
 -- -- vim.opt.timeout = true
 -- vim.opt.wildmode = { "list", "longest" }
@@ -96,5 +94,5 @@ vim.opt.timeoutlen = 300
 -- vim.opt.incsearch = true
 --
 -- vim.g.have_nerd_font = true
--- vim.opt.iskeyword:append("-")
--- vim.opt.isfname:append("@-@")
+vim.opt.iskeyword:append("-")
+vim.opt.isfname:append("@-@")
